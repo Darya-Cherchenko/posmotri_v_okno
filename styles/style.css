@@ -170,6 +170,10 @@ ol {
   text-decoration: underline;
 }
 
+.content__card-link_current {
+  background-color: #545050;
+}
+
 .content__card-link:active {
   background-color: #545050;
 }
@@ -251,8 +255,9 @@ ol {
   align-items: center;
 }
 
-.search-form__label-text:hover {
+.search-form__label:hover > .search-form__label-text {
   text-decoration: underline;
+  cursor: pointer;
 }
 
 .search-form__checkbox:active + .search-form__pseudo-checkbox::after {
